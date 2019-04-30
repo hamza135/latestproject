@@ -15,6 +15,7 @@ namespace latestproject.Controllers
             return View();
         }
 
+
         public IActionResult Privacy()
         {
             return View();
