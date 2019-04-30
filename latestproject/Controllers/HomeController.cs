@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using latestproject.Models;
 
+
 namespace latestproject.Controllers
 {
     public class HomeController : Controller
     {
         public IActionResult Index()
         {
+            int a = 10;
             return View();
         }
 
