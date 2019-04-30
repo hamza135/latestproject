@@ -14,6 +14,7 @@ namespace latestproject.Controllers
         public IActionResult Index()
         {
             int a = 10;
+            int b = 20;
             return View();
         }
 
